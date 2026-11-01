@@ -2,8 +2,8 @@
 
 실제 스키마 연결 사전 실패 기록: 2026-10-21T05:57:01.6581807+09:00.
 세션: 019e2cda-532d-7a71-9bb1-a5eefb289804, 작업: upbit-docker-redesign-20261021.
-실행 위치: C:/Users/PUVKID/Desktop/2026/비트코인 자동 매매/1차.
-실행 파일: C:/Users/PUVKID/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe.
+실행 위치: ..
+실행 파일: ./.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe.
 인자 배열: ["-B", "-X", "utf8", "-m", "unittest", "discover", "-s", "tests", "-p", "test_dashboard.py", "-v"].
 종료 코드 1, 원문: KeyError: 'markets'; AssertionError: None != 1000; AssertionError: 0 != 20.
 당시 구현 변경 없음, 실제 스키마 검사 세 개 추가. 공유 관측 누적 repair_used=0/input_fix_used=0.
@@ -17,7 +17,7 @@
 원문: AssertionError: Attributes of DataFrame.iloc[:, 4] (column name="volume") are different
 Attribute "dtype" are different / [left]: float64 / [right]: int64.
 원문: PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다.
-임시 대상: C:/Users/PUVKID/AppData/Local/Temp/tmpwjbujhv0/cache.sqlite3 및 tmphu19f4ku/audit.sqlite3.
+임시 대상: ./AppData/Local/Temp/tmpwjbujhv0/cache.sqlite3 및 tmphu19f4ku/audit.sqlite3.
 당시 담당 연결 코드와 화면 수정 있음. 후속 공유 관측 repair_used=1/input_fix_used=1.
 엔진 구현·검사 파일은 소유 범위 밖이므로 수정하지 않고 부모에게 반환합니다.
 앞선 선택 경로 진단의 work/reports 조회는 생성 전 경로 부재로 종료 1이었고 오류 출력은 없었습니다.

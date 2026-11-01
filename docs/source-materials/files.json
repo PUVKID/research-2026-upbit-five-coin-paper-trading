@@ -82,18 +82,22 @@
   {
     "path": "CHANGELOG.md",
     "source": "원격 efd88ce80887dc64fc1166415ac90944feed429f :: CHANGELOG.md",
-    "kind": "관측 원격 현행 입력",
-    "reason": "동시 개발 원격 raw 수용; D원본초기수집본과별도출처",
-    "bytes": 6352,
-    "sha256": "d03c7467829cef426e05635280d8d7a59eba045b6f0b1543c1a3d7f267537f2d"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 6620,
+    "sha256": "09746e193b07326de84274c960c3b3f6a911c7a0a0dff72ca1aa36eb7a006641",
+    "source_sha256": "d03c7467829cef426e05635280d8d7a59eba045b6f0b1543c1a3d7f267537f2d",
+    "source_bytes": 6352
   },
   {
     "path": "README.md",
     "source": "현행 공개 안내 문서: 원격 efd88ce의 3차 설명과 기존 차수·자료 색인 통합",
-    "kind": "현행 통합 안내 문서",
-    "reason": "원격 README와 기존 공개용 차수·자료·화면 안내를 통합한 문서이며 원격 raw 사본과 구분합니다.",
-    "bytes": 16431,
-    "sha256": "4bd51a052cef932923d93e324abbe9dbc665f7eba92f1dfd839799df81449ac5"
+    "kind": "공개 사본의 문서 링크 정리",
+    "reason": "중첩 문서의 상대링크를 확인한 실제 공개 경로에 연결하거나 미공개 대상의 라벨·파일명만 보존했습니다. 원본 기준 해시는 source_sha256/source_bytes로 유지합니다.",
+    "bytes": 16839,
+    "sha256": "27baf8bfc6da8f4c98b62498c8bfda6e38ed65923cd676057c2ced0f9238930d",
+    "source_sha256": "4bd51a052cef932923d93e324abbe9dbc665f7eba92f1dfd839799df81449ac5",
+    "source_bytes": 16431
   },
   {
     "path": "dashboard.py",
@@ -106,42 +110,52 @@
   {
     "path": "docs/2026_실행환경_이전.md",
     "source": "docs/2026_실행환경_이전.md",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 2682,
-    "sha256": "37daea09e329890f035f11114b0e2ee4b9783dab249832605532012f72583d4d"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 2655,
+    "sha256": "a7edfe092a6b41343facdc55c4fd4e83dd747bf308cb1e1305023d22bbef1fd2",
+    "source_sha256": "37daea09e329890f035f11114b0e2ee4b9783dab249832605532012f72583d4d",
+    "source_bytes": 2682
   },
   {
     "path": "docs/2차_중립원인_연속학습.md",
     "source": "docs/2차_중립원인_연속학습.md",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 2677,
-    "sha256": "8e14acf017c2ef17267348f724d96bcdfb712af4be549aad0d9e0a9fd4b5ea3d"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 2658,
+    "sha256": "c81826a536e9b5a3f92fedc697b845099cb61fbd154c25d295a99cc9fdf5f2dd",
+    "source_sha256": "8e14acf017c2ef17267348f724d96bcdfb712af4be549aad0d9e0a9fd4b5ea3d",
+    "source_bytes": 2677
   },
   {
     "path": "docs/글래스_대시보드_요구사항.md",
     "source": "docs/글래스_대시보드_요구사항.md",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 2960,
-    "sha256": "ca69e2c0267f8315b8f92cfc73c0ff5abedb482799f16de23232db8140e02691"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 2941,
+    "sha256": "af7d6e73e295f364d2bcdc8d3cb295af97d1ec01887b1573225c9c201a246292",
+    "source_sha256": "ca69e2c0267f8315b8f92cfc73c0ff5abedb482799f16de23232db8140e02691",
+    "source_bytes": 2960
   },
   {
     "path": "docs/설계_요구사항.md",
     "source": "docs/설계_요구사항.md",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 5751,
-    "sha256": "d8456fc2798d670bcbe122529c5aeb277bf0419daec61653c6080a0d116afa49"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 5732,
+    "sha256": "a8caafa673af31230bcec57466c30ff34afe5827fa7357a57d0ba5d5e06a51c4",
+    "source_sha256": "d8456fc2798d670bcbe122529c5aeb277bf0419daec61653c6080a0d116afa49",
+    "source_bytes": 5751
   },
   {
     "path": "docs/초보자_대시보드_개편.md",
     "source": "docs/초보자_대시보드_개편.md",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 3994,
-    "sha256": "a6e17f47d1b3fd257bf013f4b6c222aafaf3b93fa77c32fbdfbdc0abf1aa6f63"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 3978,
+    "sha256": "371bacabd54ae38d4130bf5598faca6e4d164ac109cd8e77c052d66496f068cf",
+    "source_sha256": "a6e17f47d1b3fd257bf013f4b6c222aafaf3b93fa77c32fbdfbdc0abf1aa6f63",
+    "source_bytes": 3994
   },
   {
     "path": "engine-config.json",
@@ -162,10 +176,12 @@
   {
     "path": "tests/test_dashboard.py",
     "source": "tests/test_dashboard.py",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 34117,
-    "sha256": "7ff2ef764f6835cf616b7c69df80ff326e272c3e74f2214dce78ec1be8db9bec"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 34030,
+    "sha256": "5038c4a9768f409bd928d7f07b00bbd5191f038ebe7cf51978767e853f8d367e",
+    "source_sha256": "7ff2ef764f6835cf616b7c69df80ff326e272c3e74f2214dce78ec1be8db9bec",
+    "source_bytes": 34117
   },
   {
     "path": "tests/test_external_dashboard.py",
@@ -378,10 +394,12 @@
   {
     "path": "보존자료/압축원본소스/웹_20261028_시안재현전/web/index.html",
     "source": "보존자료/웹_20261028_시안재현전.zip :: web/index.html",
-    "kind": "ZIP 멤버",
-    "reason": "압축에만 남은 고유 코드·설정·리소스·사용법/실험 노트 보존",
-    "bytes": 14648,
-    "sha256": "b0e678c43117b6d6c8e2036bd6b40bff4a1db66d0e9702f9a695a9eb16655bd6"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 14654,
+    "sha256": "e1704bb826b4835bb5a4ac5203afb32e4a9ab25972d3face7a7a558e8980e8a0",
+    "source_sha256": "b0e678c43117b6d6c8e2036bd6b40bff4a1db66d0e9702f9a695a9eb16655bd6",
+    "source_bytes": 14648
   },
   {
     "path": "보존자료/압축원본소스/웹_20261028_시안재현전/web/scene.js",
@@ -458,10 +476,12 @@
   {
     "path": "보존자료/압축원본소스/웹_20261028_학습개편전/web/index.html",
     "source": "보존자료/웹_20261028_학습개편전.zip :: web/index.html",
-    "kind": "ZIP 멤버",
-    "reason": "압축에만 남은 고유 코드·설정·리소스·사용법/실험 노트 보존",
-    "bytes": 12464,
-    "sha256": "31485766cb10a4471572fafa58bcbce7eccb119c40b28ce0e8c0bc9104f90d1a"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 12470,
+    "sha256": "526e6cbb9fc66cbd76cf9535f61461eb6086564030c434a1a23b95476292ed3c",
+    "source_sha256": "31485766cb10a4471572fafa58bcbce7eccb119c40b28ce0e8c0bc9104f90d1a",
+    "source_bytes": 12464
   },
   {
     "path": "보존자료/압축원본소스/웹_20261028_학습개편전/web/scene.js",
@@ -522,10 +542,12 @@
   {
     "path": "보존자료/이전_대응표.json",
     "source": "보존자료/이전_대응표.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 566937,
-    "sha256": "590b16ca3b2c6e345427b8a3c9223f952ec9d08be39b2e05aa2e19f6ce337321"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 509866,
+    "sha256": "1b2250add3c5eb015a30928354f18742a601246138a63277bf0f059cf6cd805e",
+    "source_sha256": "590b16ca3b2c6e345427b8a3c9223f952ec9d08be39b2e05aa2e19f6ce337321",
+    "source_bytes": 566937
   },
   {
     "path": "보존자료/작업소스/work/archive/20261026-db-io-failure/data-recovery-20261026T154614/damaged-preservation.json",
@@ -802,10 +824,12 @@
   {
     "path": "후속보존/2026-10-30_GPU처리량/tests/test_docker_control.py",
     "source": "후속보존/2026-10-30_GPU처리량/tests/test_docker_control.py",
-    "kind": "공개 보관 입력",
-    "reason": "원본/시점 보존 대응은 비공개 파일별 검토 명세에 기록",
-    "bytes": 13273,
-    "sha256": "6640052922ea812b992ce04adec8cbf932c5833676bc547ab2509d384883146e"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 13246,
+    "sha256": "60a15334c7fcf29008afd20a4e250abafdf194de91edad00701688c058051c84",
+    "source_sha256": "6640052922ea812b992ce04adec8cbf932c5833676bc547ab2509d384883146e",
+    "source_bytes": 13273
   },
   {
     "path": "후속보존/2026-10-30_GPU처리량/tests/test_engine.py",
@@ -954,10 +978,12 @@
   {
     "path": "후속보존/2026-10-30_GPU처리량/web/index.html",
     "source": "보존자료/웹_20261028_실제3D전.zip :: web/index.html",
-    "kind": "ZIP 멤버",
-    "reason": "공개 입력과 원문 바이트 SHA-256 동일",
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
     "bytes": 15527,
-    "sha256": "8ccc26df2d2db9bd3b115eef4ddbe317aaed35e5b484227265f64d5cfc65bec0"
+    "sha256": "b1e108aeacd0af0bc572ebd8b71bab5819805f45236cc9b28c7c3acc64296b5a",
+    "source_sha256": "8ccc26df2d2db9bd3b115eef4ddbe317aaed35e5b484227265f64d5cfc65bec0",
+    "source_bytes": 15527
   },
   {
     "path": "후속보존/2026-10-30_GPU처리량/web/licenses/cryptocurrency-icons.txt",

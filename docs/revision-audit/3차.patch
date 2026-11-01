@@ -1,5 +1,5 @@
---- 133824초기/README.md
-+++ 현행3차/README.md
+--- 13:38 초기 부분 공개본/README.md
++++ 3차/README.md
 @@ -1,12 +1,43 @@
 -# 3차 · 외부 대용량 자료 연구 연결부 보존
 -
@@ -56,8 +56,8 @@
 +## 출처와 공개
 +
 +[Binance Public Data](https://github.com/binance/binance-public-data), [시장자료전용공개API](https://developers.binance.com/en/docs/products/spot/faqs/market_data_only), [자료이용조건](https://raw.githubusercontent.com/binance/binance-public-data/master/TERMS_AND_CONDITIONS.md)을확인했습니다. 개인비상업연구·모의체결용이며실주문·유료신호배포로사용하지않습니다. 원시자료·모델·계좌·운영로그·개인지침은공개하지않고코드와집계검사기록만반영합니다.
---- 133824초기/engine-config.json
-+++ 현행3차/engine-config.json
+--- 13:38 초기 부분 공개본/engine-config.json
++++ 3차/engine-config.json
 @@ -0,0 +1,39 @@
 +{
 +  "collection": {"recent_pages": 2, "backfill_pages_per_cycle": 20, "poll_seconds": 30, "request_interval": 0.18, "retries": 4},
@@ -98,8 +98,8 @@
 +    "poll_seconds": 15
 +  }
 +}
---- 133824초기/external_data.py
-+++ 현행3차/external_data.py
+--- 13:38 초기 부분 공개본/external_data.py
++++ 3차/external_data.py
 @@ -36,6 +36,34 @@
  BAR_COLUMNS = ['open_time', 'open', 'high', 'low', 'close', 'volume',
                 'quote_volume', 'trade_count', 'taker_quote_volume']
@@ -382,8 +382,8 @@
                                      else '공식 자료 범위 탐색 완료; 다음 갱신 대기')
                          STOP.wait(3600)
                  except InterruptedError:
---- 133824초기/external_features.py
-+++ 현행3차/external_features.py
+--- 13:38 초기 부분 공개본/external_features.py
++++ 3차/external_features.py
 @@ -22,10 +22,19 @@
                     "ext_range", "ext_body", "ext_volume_ratio", "ext_quote_volume_ratio",
                     "ext_trade_count_ratio", "ext_volatility", "ext_taker_buy_ratio"]
@@ -526,8 +526,8 @@
              chunk = pd.DataFrame.from_records(rows, columns=list(BAR_TYPES))
              if not carry.empty:
                  chunk = pd.concat([carry, chunk], ignore_index=True)
---- 133824초기/manage.py
-+++ 현행3차/manage.py
+--- 13:38 초기 부분 공개본/manage.py
++++ 3차/manage.py
 @@ -0,0 +1,85 @@
 +"""공유 컨테이너를 건드리지 않고3차 수집기만 제어합니다."""
 +import argparse
@@ -614,8 +614,8 @@
 +
 +if __name__ == '__main__':
 +    main()
---- 133824초기/변경기록.md
-+++ 현행3차/변경기록.md
+--- 13:38 초기 부분 공개본/변경기록.md
++++ 3차/변경기록.md
 @@ -0,0 +1,41 @@
 +# 3차 변경 기록
 +

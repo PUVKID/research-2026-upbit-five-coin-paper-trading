@@ -1,4 +1,4 @@
---- 기존 공개본/README.md
+--- 기존 공개기준 정리본/README.md
 +++ GPU처리량/README.md
 @@ -0,0 +1,17 @@
 +# GPU 처리량 개선 · 2026-10-30
@@ -18,7 +18,7 @@
 +## 보존 시점 구분
 +
 +이 보존본 engine.py의 SHA-256은 `52921c24eb4aa8ea02c7f829a483ad64877cb7c89bb40db42e3f9fde0eed1209`이며 초기 원본 수집 manifest와 일치합니다. 원본 루트는 이후 실제 3차 외부 자료 연결 작업으로 변경되었습니다. [3차의 별도 수집 시점](../../3차/README.md)과 구분하며 이 보존본을 계속 바뀌는 최신 운영 소스라고 보증하지 않습니다.
---- 기존 공개본/docs/2026-10-30_GPU처리량_개선.md
+--- 기존 공개기준 정리본/docs/2026-10-30_GPU처리량_개선.md
 +++ GPU처리량/docs/2026-10-30_GPU처리량_개선.md
 @@ -0,0 +1,39 @@
 +# GPU 처리량 개선
@@ -47,9 +47,9 @@
 +
 +## 공식 근거
 +
-+- [업비트 분봉 API](http[로컬 경로 제외]
-+- [XGBoost GPU](http[로컬 경로 제외]
-+- [SQLite 조회 계획](http[로컬 경로 제외]
++- [업비트 분봉 API](https://docs.upbit.com/kr/reference/list-candles-minutes): 조회당200개·공유 요청 제한.
++- [XGBoost GPU](https://xgboost.readthedocs.io/en/stable/gpu/index.html): CUDA 설정·GPU메모리·학습 행렬.
++- [SQLite 조회 계획](https://sqlite.org/eqp.html): 임시 정렬과 인덱스 사용 구분.
 +
 +## 실측 결과
 +
@@ -60,7 +60,7 @@
 +적합 비교 구간의 장치 전체 NVML73시료는 평균50.0%·최대82%, 메모리 최대6666MiB였습니다. 이 구간은 기존/개선 비교를 모두 포함하며 본 프로젝트만의 점유율이나 하루 평균이 아닙니다. 준비 구간에는 GPU가 낮을 수 있고100%상시 사용은 달성했다고 보고하지 않습니다.
 +
 +구현자 Linux 보충 전체 회귀212개는72.696초에 통과했고 기존 정적 검사는79개 통과했습니다. 이 보충 실행을 공식30초 제한의 검사 통과라고 기록하지 않으며 별도 검증자가 기존 공식 명세를 그대로 실행합니다. 최종 독립 검증 결과와 공개 반영은 별도 영수증에 기록합니다.
---- 기존 공개본/engine.py
+--- 기존 공개기준 정리본/engine.py
 +++ GPU처리량/engine.py
 @@ -3,6 +3,8 @@
  
@@ -401,7 +401,7 @@
      report["validation"] = {"scope": "정책 선정 이후 시간순 후속 평가; 반복 연구이며 잠금 시험 아님", "portfolio":
                               backtest_portfolio(validation_frames, validation_probs, rules, config["paper"])}
      report["promotion"] = assess_promotion(config, validation_frames, validation_probs, rules)
---- 기존 공개본/tests/test_dashboard.py
+--- 기존 공개기준 정리본/tests/test_dashboard.py
 +++ GPU처리량/tests/test_dashboard.py
 @@ -0,0 +1,440 @@
 +"""대시보드의 읽기 전용 경계와 실제 스냅숏 투영을 검사합니다."""
@@ -844,7 +844,7 @@
 +
 +if __name__ == "__main__":
 +    unittest.main()
---- 기존 공개본/tests/test_gpu_throughput.py
+--- 기존 공개기준 정리본/tests/test_gpu_throughput.py
 +++ GPU처리량/tests/test_gpu_throughput.py
 @@ -0,0 +1,239 @@
 +"""GPU 실험 없이 행렬 재사용·유한 선행 준비·장치 경계를 검증합니다."""

@@ -1,121 +1,218 @@
 [
   {
     "path": "3차/README.md",
-    "change": "추가",
-    "status": "양쪽변경겹침",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 4627,
     "before_sha256": null,
     "after_sha256": "88372312421f212080d1afaf365844e46abf53001448594c9c395dc20925a0de"
   },
   {
     "path": "3차/docs/요구사항_및_데이터계약.md",
-    "change": "추가",
-    "status": "양쪽동일변경",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 8169,
     "before_sha256": null,
     "after_sha256": "d1f46287aade733cd663046c69639b54c566b1f3934d9308a1ee1b47879c09d9"
   },
   {
     "path": "3차/engine-config.json",
-    "change": "추가",
-    "status": "원격만변경",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 1278,
     "before_sha256": null,
     "after_sha256": "39099ca5e2d6655f7af6c855da67da2e09b2a239911a78bcb96242f4631485ad"
   },
   {
     "path": "3차/external_data.py",
-    "change": "추가",
-    "status": "양쪽변경겹침",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 31276,
     "before_sha256": null,
     "after_sha256": "89f33fec5e8418d4f9ab8b2dd604afb01df3819ba65ed9260050f593356e4a37"
   },
   {
     "path": "3차/external_features.py",
-    "change": "추가",
-    "status": "양쪽변경겹침",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 17323,
     "before_sha256": null,
     "after_sha256": "1ea7e1d133938d354dfe853bf190033362631894d7c606788cf240140db31b7b"
   },
   {
     "path": "3차/manage.py",
-    "change": "추가",
-    "status": "원격만변경",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 3118,
     "before_sha256": null,
     "after_sha256": "25b98a04516847cd922b38c68f665a4fe12fe267dac13dc8013071300cdfa376"
   },
   {
+    "path": "3차/검사/test_external_data.py",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 4265,
+    "before_sha256": null,
+    "after_sha256": "55e9b1657af2c5d7aa842b9931d9873dd0a9a1812b4b9ce268b681220e3348a3"
+  },
+  {
+    "path": "3차/검사/test_external_features.py",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 14983,
+    "before_sha256": null,
+    "after_sha256": "8b11c5ad0baf115d6f3ca6bfee0bec4c2ec95a9174cae74c5b70345a12018d7f"
+  },
+  {
     "path": "3차/변경기록.md",
-    "change": "추가",
-    "status": "원격만변경",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 4943,
     "before_sha256": null,
     "after_sha256": "22a8877d35a66de5eaefd765c782880901661e65ce5043f6b7bed1ca04f033e4"
   },
   {
-    "path": "CHANGELOG.md",
-    "change": "수정",
-    "status": "원격만변경",
-    "before_sha256": "54810bf48d5bf1809eb5beb8d585f5c636016e87ed15ffaf74c3c153b4888c32",
-    "after_sha256": "d03c7467829cef426e05635280d8d7a59eba045b6f0b1543c1a3d7f267537f2d"
+    "path": "3차/연결부/engine.py",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 102911,
+    "before_sha256": null,
+    "after_sha256": "0413e50c1d081ce85bc060899dffb5f82d5fbf2245dc1793a2a88c6768df548a"
   },
   {
     "path": "README.md",
-    "change": "수정",
-    "status": "양쪽변경겹침",
-    "before_sha256": "23f284c56ace061eca53639aa4e1a1418bbe89dd007c9e99b5d70c7abb041ed9",
-    "after_sha256": "9df7f5e6cf0284b7260d2f1ec85c1607bc876bdb851fcba275fe2d4a4b0ba701"
+    "status": "수정",
+    "before_bytes": 2151,
+    "after_bytes": 16839,
+    "before_sha256": "c47bb0d9c9ebaf3a071778591fd8fe8abf962acfa35b291e6fb5558739200f84",
+    "after_sha256": "27baf8bfc6da8f4c98b62498c8bfda6e38ed65923cd676057c2ced0f9238930d"
   },
   {
     "path": "dashboard.py",
-    "change": "수정",
-    "status": "원격만변경",
+    "status": "수정",
+    "before_bytes": 33047,
+    "after_bytes": 33621,
     "before_sha256": "f6de70b70dbb71797fcaeb0ebdbcea7f31e4b225c59bdbfe18a940bc6bf7289b",
     "after_sha256": "01b628748ce57c6686770898d0b5be2afa36d7671409970c3edb00094edb0ec5"
   },
   {
-    "path": "docs/VERSIONS.md",
-    "change": "수정",
-    "status": "양쪽변경겹침",
-    "before_sha256": "a4bbb18cb4c0c588078719da8c6efc9fba13993f37aba9836dfdb033c5baf518",
-    "after_sha256": "b3e785cc73ed261e416291c39f9814a562f34e9adaf14a0a3a28f7df223e52e2"
-  },
-  {
     "path": "engine-config.json",
-    "change": "수정",
-    "status": "원격만변경",
+    "status": "수정",
+    "before_bytes": 1087,
+    "after_bytes": 1278,
     "before_sha256": "0cec34748049355178881834a46e100ab79236cee93fb21b1988cc1959c549cd",
     "after_sha256": "39099ca5e2d6655f7af6c855da67da2e09b2a239911a78bcb96242f4631485ad"
   },
   {
     "path": "engine.py",
-    "change": "수정",
-    "status": "원격만변경",
+    "status": "수정",
+    "before_bytes": 100122,
+    "after_bytes": 104789,
     "before_sha256": "52921c24eb4aa8ea02c7f829a483ad64877cb7c89bb40db42e3f9fde0eed1209",
     "after_sha256": "bb132af274660fef567cc1bad5b7f4d7c1cf4427bbe9fcdb6c3701f8ac2896c5"
   },
   {
+    "path": "tests/test_dashboard.py",
+    "status": "수정",
+    "before_bytes": 28869,
+    "after_bytes": 34030,
+    "before_sha256": "315f9675c9283fd8ee3566906142d7c21ffafc821726901e9129cd9c4cad2226",
+    "after_sha256": "5038c4a9768f409bd928d7f07b00bbd5191f038ebe7cf51978767e853f8d367e"
+  },
+  {
     "path": "tests/test_external_dashboard.py",
-    "change": "추가",
-    "status": "원격만변경",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 1877,
     "before_sha256": null,
     "after_sha256": "a2f4d5e0b3a5d2799143f700552e56c68f2bcee05d77b0033aa8c0ada421e905"
   },
   {
     "path": "tests/test_external_data.py",
-    "change": "추가",
-    "status": "원격만변경",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 13400,
     "before_sha256": null,
     "after_sha256": "b8ebe565850f6edfa7d62762323ce122f223cc51d58a61b631e723c54454826b"
   },
   {
     "path": "tests/test_external_features.py",
-    "change": "추가",
-    "status": "원격만변경",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 27054,
     "before_sha256": null,
     "after_sha256": "271b8644968060ea03311cb0f73ddac7c87cdde9cbaeb3dd9d8ec753b7b7fcf1"
   },
   {
     "path": "web/app.js",
-    "change": "수정",
-    "status": "원격만변경",
+    "status": "수정",
+    "before_bytes": 47768,
+    "after_bytes": 49154,
     "before_sha256": "28b44177c7b07d11d8d9e9d1f4a3f464d1173764002a2a16e398acd831a52c52",
     "after_sha256": "4b4225e7b7bef75285a2504938c258dfa8a2ef32d49c8d27bd780e17320bf8ae"
+  },
+  {
+    "path": "web/assets/btc.png",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 2589,
+    "before_sha256": null,
+    "after_sha256": "8022fd53c251f18cb39cefede445f1c78a3b265989232f0bb46b9c4622e55a9e"
+  },
+  {
+    "path": "web/assets/doge.png",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 1597,
+    "before_sha256": null,
+    "after_sha256": "4a789f36f6ca12a6d1901ab8441a9cab7a4a9a5fd4ba87c887c4d45c729fffce"
+  },
+  {
+    "path": "web/assets/eth.png",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 3437,
+    "before_sha256": null,
+    "after_sha256": "99bf2102cc13a51bb226f931b8d0fa4c5b3ca9dc4179167e89d7ee3f677c3fdb"
+  },
+  {
+    "path": "web/assets/learning-glass.png",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 1178531,
+    "before_sha256": null,
+    "after_sha256": "00b32184c1bced24747adb7d651d05ff61909d16c5691c106d81f19acc5bf77c"
+  },
+  {
+    "path": "web/assets/sol.png",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 4222,
+    "before_sha256": null,
+    "after_sha256": "b9296ce1118a6d150e57049190aeb4c024199e0787e0c6198c244230b8d704f5"
+  },
+  {
+    "path": "web/assets/xrp.png",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 2393,
+    "before_sha256": null,
+    "after_sha256": "0875539d872ac02066c129360ade039e835bd7b9b2320f3a4d24ed4ef72c3051"
+  },
+  {
+    "path": "web/fonts/NanumGothic-Bold.ttf",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 2073868,
+    "before_sha256": null,
+    "after_sha256": "f96298f9fb18e364d2370f4c3ce948ac67a2b61af992d7234bc15c42b033c674"
+  },
+  {
+    "path": "web/vendor.bundle.js",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 756412,
+    "before_sha256": null,
+    "after_sha256": "9ca8a8c2d62edcc23100bb54b3ef7be64067431802d5a1db5b5667a622fbb804"
   }
 ]

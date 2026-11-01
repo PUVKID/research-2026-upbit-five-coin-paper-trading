@@ -65,7 +65,7 @@ class OwnershipTests(unittest.TestCase):
         self.assertEqual(call.call_count, 1)
 
     def test_dynamic_root_and_all_actions_use_exec(self):
-        with patch.object(control, "ROOT", Path("D:/2026/Upbit 5-Coin Project")), \
+        with patch.object(control, "ROOT", Path(".")), \
                 patch.object(control, "owned_container"), patch.object(control, "run", return_value="{}") as run:
             root = "/workspace/2026/Upbit 5-Coin Project"
             for action in ("start", "status", "stop", "gpu", "test"):

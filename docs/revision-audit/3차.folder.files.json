@@ -1,5 +1,10 @@
 [
   {
+    "path": "README.md",
+    "bytes": 4627,
+    "sha256": "88372312421f212080d1afaf365844e46abf53001448594c9c395dc20925a0de"
+  },
+  {
     "path": "docs/요구사항_및_데이터계약.md",
     "bytes": 8169,
     "sha256": "d1f46287aade733cd663046c69639b54c566b1f3934d9308a1ee1b47879c09d9"
@@ -23,11 +28,6 @@
     "path": "manage.py",
     "bytes": 3118,
     "sha256": "25b98a04516847cd922b38c68f665a4fe12fe267dac13dc8013071300cdfa376"
-  },
-  {
-    "path": "README.md",
-    "bytes": 4627,
-    "sha256": "88372312421f212080d1afaf365844e46abf53001448594c9c395dc20925a0de"
   },
   {
     "path": "검사/test_external_data.py",
